@@ -74,11 +74,11 @@ some examples in testcase/t_base_demo.lua. require time.lua module and run it wi
 
 and, install luajit in macos(only for the testcase):
 ```
-	> brew install luajit
+> brew install luajit
 ```
 run:
 ```
-	> git clone https://github.com/aimingoo/Valider
-	> cd Valider/testcase
-	> luajit t_base_demo.lua
+> git clone https://github.com/aimingoo/Valider
+> cd Valider/testcase
+> luajit t_base_demo.lua
 ```
