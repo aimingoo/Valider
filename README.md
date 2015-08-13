@@ -2,11 +2,12 @@
 The Valider module to check rate of invalid action/event/behaviour, and return a final status to you.
 
 Valider include features:
-	- continuous invalid X times, or
-	- invalid X times in Y seconds
+- continuous invalid X times, or
+- invalid X times in Y seconds
+
 will report as once. and
-	- support multi-tags in a checker
-	- very clean & small, little memory, and faster!
+- support multi-tags in a checker
+- very clean & small, little memory, and faster!
 
 # Install & Usage
 download the Valider.lua file and put into lua search path or current directory.
@@ -69,10 +70,15 @@ end
 
 # testcase or samples
 some examples in testcase/t_base_demo.lua. require time.lua module and run it with luajit. the module  from:
-	- https://luapower.com/time/
+- https://luapower.com/time/
+
 and, install luajit in macos(only for the testcase):
+```
 	> brew install luajit
+```
 run:
+```
 	> git clone https://github.com/aimingoo/Valider
 	> cd Valider/testcase
 	> luajit t_base_demo.lua
+```
