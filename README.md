@@ -69,8 +69,9 @@ end
 ```
 
 # testcase or samples
-<<<<<<< HEAD
 some examples in testcase/t_base_demo.lua. run it:
-	> git clone https://github.com/aimingoo/Valider
-	> cd Valider/testcase
-	> lua t_base_demo.lua
+```bash
+> git clone https://github.com/aimingoo/Valider
+> cd Valider/testcase
+> lua t_base_demo.lua
+```
