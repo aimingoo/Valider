@@ -68,11 +68,7 @@ end
 ```
 
 # testcase or samples
-some examples in testcase/t_base_demo.lua. require time.lua module and run it with luajit. the module  from:
-	- https://luapower.com/time/
-and, install luajit in macos(only for the testcase):
-	> brew install luajit
-run:
+some examples in testcase/t_base_demo.lua. run it:
 	> git clone https://github.com/aimingoo/Valider
 	> cd Valider/testcase
-	> luajit t_base_demo.lua
+	> lua t_base_demo.lua

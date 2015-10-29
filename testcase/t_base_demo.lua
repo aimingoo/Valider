@@ -2,12 +2,10 @@
 --
 -- the test of Valider.lua module in NGX_4C
 --
--- Note:
---	need luajit for lib/time.lua, the testcase only.
 --------------------------------------------------------
 
-local sleep = require('lib.time').sleep
-local Valider = dofile('../Valider2.lua')
+local sleep = function(n) os.execute("sleep " .. n) end
+local Valider = dofile('../Valider.lua')
 
 --------------------------------------------------------
 --
